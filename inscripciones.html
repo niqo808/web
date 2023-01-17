@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EEST N°2</title>
+    <link rel="stylesheet" href="inscripciones.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+            <div class="container">
+                <a href="/index.html">
+                    <h1 class="logo">
+                        E.E.S.T N°2 <span class="color-acent">República Argentina</span> 
+                    </h1>
+                    </a>
+                <nav>
+                    <a href="/sobre_nosotros.html">Sobre Nosotros 
+                       
+                        
+                    </a>  
+    
+                    <a href="#">Planes de Estudio</a> 
+    
+                    <a href="/index.html">Inicio</a>
+                </nav>
+            </div>
+    </header>
+        
+        <section id="hero">
+            <div class="container">
+                <form id="form1">
+
+                    <h2>Datos del Alumno</h2>
+                    <label id="formAlum">
+                        Nombre:
+                        <input type="text" placeholder="Nombre" name="txtNombreAlumno" required>  
+                        Apellido:<input type="text" placeholder="Apellido"txtApellidoAlumno" required>
+                            
+                        </br>
+                        DNI: <input type="text" placeholder="Documento Nacional de Identidad" name="txtDniAlumno" required minlength="8" maxlength="8">
+                        </br>
+                        
+                        Sexo:
+                        <select name="selecSexoAlumno">
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                        </select>
+        
+                        Fecha de nacimiento: <input type="date" placeholder="Fecha de nacimiento"fechaNacimientoAlumno">
+                        </br>
+                        </br>
+                        <u>Direccion:</u>
+                        </br>
+                        </br>
+                        Localidad: <input type="text" placeholder="Localidad" name="txtLocalidadAlumno" required>
+                        Calle: <input type="text" placeholder="Calle" name="txtCalleAlumno" required>
+                        Altura: <input type="text" placeholder="Altura" name="txtAlturaAlumno" required>
+                        <br>
+                        <br>
+                        Piso: <input type="text" name="txtPisoAlumno" style="width:30px;">
+                        Departamento: <input type="text" name="txtDepartamentoAlumno" style="width:30px;">
+                        <br>
+                        <br>
+                        <u>Contacto:</u>
+                        </br>
+                        </br>
+                        Telefono:
+                        <input type="text" name="txtTelefonoAlumno" placeholder="Número de Telefono" minlength="10" maxlength="10">
+                                            
+                                        
+                    
+                    </label>
+                        
+                    
+
+                    <button class="continuar" role="button" id="continuar">Continuar</button>
+                    
+                </form>
+
+                <form id="form2">
+
+                    <h2>Datos del Tutor</h2>
+                    <label id="formTutor">
+
+                        Nombre: <input type="text" name="txtNombreTutor" required>  
+                        
+                        Apellido: <input type="text" name="txtApellidoTutor" required>
+    </br>
+    </br>
+                        DNI: <input type="text" name="txtDniTutor" required minlength="8" maxlength="8">
+    </br>
+    </br>
+                        Sexo:
+                        <select name="selecSexoTutor">
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                        </select>
+    
+                        Fecha de nacimiento: <input type="date" name="fechaNacimientoTutor" required min="1940-01-01" max="2005-01-01">
+    </br>
+    </br>
+                    <u>Direccion:</u>
+    </br>
+    </br>
+                        Localidad: <input type="text" name="txtLocalidadTutor" required>
+                        Calle: <input type="text" name="txtCalleTutor" required>
+                        Altura: <input type="text" name="txtAlturaTutor" required>
+    <br>
+    <br>
+                        Piso: <input type="text" name="txtPisoTutor" style="width:30px;">
+                        Departamento: <input type="text" name="txtDepartamentoTutor" style="width:30px;">
+    </br> 
+    </br>
+    
+                        Email:
+                        <input type="email" name="txtMailTutor">
+    </br>
+    </br>
+                        Telefono:
+                        <input type="text" name="txtTelefonoTutor" required minlength="10" maxlength="10">
+
+                </label>
+
+                    <button class="atras" role="button" id="atras">Atrás</button>
+                    <button class="confirmar" role="button" id="confirmar">Confirmar</button>
+                    
+                </form>
+
+            </div>
+        </section> 
+
+    <script src="inscripciones.js"></script>
+    </body>
+
+</html>

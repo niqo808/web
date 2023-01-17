@@ -69,7 +69,22 @@ header a:hover{
     
 }
 
-
+footer{
+    background-color: rgb(236, 235, 235);
+    }
+    
+    footer p{
+        margin: 0;
+        color: grey;
+        padding: 12px;
+    }
+    
+    footer .container{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 
 
 
