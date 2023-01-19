@@ -1,4 +1,4 @@
-const header =document.querySelector("header");
+const header = document.querySelector("header");
 window.addEventListener("scroll",()=>{
     if(window.scrollY > 600){
         header.classList.add("change");
@@ -8,6 +8,25 @@ window.addEventListener("scroll",()=>{
     }
 })
 
+const headertxtlogo = document.querySelector("header .logo");
+window.addEventListener("scroll",()=>{
+    if(window.scrollY > 600){
+        headertxtlogo.classList.replace("logo","changetxtlogo");
+    }
+    else {
+        headertxtlogo.classList.replace("changetxtlogo","logo");
+    }
+})
+
+const headertxtnav = document.querySelectorAll("div.links a");
+window.addEventListener("scroll",()=>{
+    if(window.scrollY > 600){
+        headertxtnav.classList.replace("a","changetxtnav");
+    }
+    else {
+        headertxtnav.classList.replace("changetxtnav","a");
+    }
+})
 
 const mmo_img = document.getElementById('mmo_img');
 const inf_img = document.getElementById('inf_img');

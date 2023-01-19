@@ -14,7 +14,7 @@ h2{font-size: 2em;}
 p{font-size: 1.4em;}
 
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -26,13 +26,13 @@ header{
 
 header .logo{
     size: 1800px;
-    margin: 0;
+    margin: 0px;
     padding: 25px 30px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.8em;
-    
 }
+
 
 
 
@@ -52,16 +52,18 @@ header nav{
     flex-direction:column;
     text-align: center;
     padding-bottom: 25px;
+ 
 }
 
 header a{
-    padding: 5px 12px;
+    padding: 10px 12px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
+
 header a:hover{
-    color: deepskyblue;
+    color: rgb(0, 183, 255);
 }
 
 #hero{
@@ -109,6 +111,8 @@ footer{
 background-color: rgb(236, 235, 235);
 }
 
+
+
 footer p{
     margin: 0;
     color: grey;
@@ -127,7 +131,7 @@ footer .container{
         padding-top: 150px;
     }
 
-
+    
     header{
         position: fixed;
         width: 100%;
@@ -138,6 +142,42 @@ footer .container{
         background-color: rgb(255, 255, 255);
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
         z-index: 99; 
+        
+    }
+    
+    header a{
+        padding: 10px 12px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    
+    
+
+    .changetxtnav{
+        padding: 5px 12px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 800;
+    }
+
+    
+    header .logo{
+        size: 1800px;
+        margin: 0px;
+        padding: 25px 30px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        font-size: 1.8em;
+    }
+
+    .changetxtlogo{
+        size: 1800px;
+        margin: 0px;
+        padding: 25px 30px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        font-size: 1.8em;
     }
 
     header .container{
