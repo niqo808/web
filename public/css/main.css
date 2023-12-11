@@ -1,3 +1,8 @@
+/*
+********
+MOBILE
+********
+*/
 *{
     box-sizing: border-box;
 }
@@ -29,9 +34,8 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 1.8em;
-    
 }
 
 
@@ -57,7 +61,7 @@ header nav{
 header a{
     padding: 5px 12px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 header a:hover{
@@ -75,16 +79,14 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url("media/image1.jpeg");
+    ),url("/public/img/image1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     font-weight: 400;
 }
 
-#MMO{
 
-}
 
 #MMO .container{
     text-align: center;
@@ -92,13 +94,6 @@ header a:hover{
     
 }
 
-#MMO .img-container{
-
-}
-
-#INF{
-
-}
 
 #INF .container{
     text-align: center;
@@ -121,7 +116,11 @@ footer .container{
     justify-content: center;
     align-items: flex-end;
 }
-
+/*
+********
+MOBILE
+********
+*/
 @media (min-width: 700px){
     #hero {
         padding-top: 150px;
@@ -138,6 +137,14 @@ footer .container{
         background-color: rgb(255, 255, 255);
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
         z-index: 99; 
+    }
+
+    h1.logo.change_logo{
+        color: rgb(0, 0, 0);
+    }
+
+    .change_nav{
+        color: black;
     }
 
     header .container{
@@ -165,7 +172,7 @@ footer .container{
 
     #MMO .img-container{
         display: flex;
-        background-image: url("media/mmo.jpg");
+        background-image: url("/public/img/mmo.jpg");
         background-size: cover;
         background-position: center center;
         width: 1980px;
@@ -204,7 +211,7 @@ footer .container{
     
     #INF .img-inf{
         display: flex;
-        background-image: url('media/inf.jpg');
+        background-image: url('/public/img/inf.jpg');
         background-size: cover;
         background-position: center center;
         width: 1980px;

@@ -29,7 +29,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 1.8em;
     
 }
@@ -57,7 +57,7 @@ header nav{
 header a{
     padding: 5px 12px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 header a:hover{
@@ -75,7 +75,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url("media/image1.jpeg");
+    ),url("/public/img/image1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -90,7 +90,7 @@ header a:hover{
     border-radius: 5px;
     position: relative;
     justify-content: center;
-   overflow: hidden;
+    overflow: hidden;
     
 }
 
@@ -132,31 +132,31 @@ form input{
 
 
 /* estilo de botones */
-.continuar {
-  background-color: rgb(232, 232, 232);
-  border-radius: 12px;
-  color: #000;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 10px 15px;
-  text-align: center;
-  transition: 200ms;
-  width: 25%;
-  margin-top: 7.5vh;
-  box-sizing: border-box;
-  border: 0;
-  font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.24);
+.continuar{
+    background-color: rgb(232, 232, 232);
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 25%;
+    margin-top: 7.5vh;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.24);
 }
 
 
 .continuar:disabled {
-  filter: saturate(0.2) opacity(0.5);
-  -webkit-filter: saturate(0.2) opacity(0.5);
-  cursor: not-allowed;
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
 }
 
 
@@ -171,19 +171,6 @@ form input{
     
 }
 
-/* .continuar{
-    font-family: "Popins", sans-serif;
-    width: 110px;
-    height: 35px;
-    margin:0 10px;
-    background: linear-gradient(to right, rgb(50, 162, 206),rgb(54, 198, 255));
-    border-radius: 5px;
-    border: 0;
-    outline: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.24);
-} */
 
 label#formAlum,
 label#formTutor{

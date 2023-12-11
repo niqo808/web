@@ -15,7 +15,7 @@ window.onload = function(){
     }
     back.onclick = function(){
         form1.style.left = "20px";
-        form2.stlye.left = "700px";
+        form2.style.left = "700px";
     }
     
 }
